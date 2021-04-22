@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(p3.jpg);
+    font-size: medium;
+    font: bold;
+    color: aliceblue;
+    font-family: "Palatino Linotype", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.img {
+    width: 250px;
+    height: auto;
+    float: right;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-color: lightgrey;
+    height: auto;
+    padding-top: 1px;
+    font-family: "Merriweather", serif;
+    font-size: 26px;
+    color: black;
+    text-transform: uppercase;
+}
+
+article {
+    padding: 5px;
+    font-style: italic;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: yellowgreen;
+}
+
+.table1 {
+    border: 3px solid lightgrey;
+    width: auto;
+    font-size: small;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    background-color: lightgrey;
+    color: black;
+}
+
+article,
+aside,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+article,
+section {
+    margin: 20px;
+}
+
+text {
+    margin: 5px;
+}
+
+image,
+nav,
+text,
+aside {
+    padding: 0;
+}
